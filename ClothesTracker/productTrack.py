@@ -2,7 +2,7 @@
 
 #INITIALISE TABLES
 import sqlite3
-connection = sqlite3.connect('ClothesTracker/Clothes_Tracker.db')
+connection = sqlite3.connect('Clothes_Tracker.db')
 cursor = connection.cursor()
 
 #APPAREL TABLE
